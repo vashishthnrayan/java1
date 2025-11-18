@@ -16,5 +16,6 @@ public class WhileLoopActivity {
         System.out.println("Loops ended because a negative number was entered.");
         sc.close();
         
+        
     }    
 }
