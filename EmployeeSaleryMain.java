@@ -47,7 +47,7 @@ public class EmployeeSaleryMain {
         System.out.println("Net Salery"+employee.getNetSalery());
     }
 
-    class Employee{
+    static  class  Employee{
         private int id;
         private String name;
         private double salery;
