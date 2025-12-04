@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class EmployeeSaleryMain {
-    public static void main(String[] args) {
+    public static Employee getEmployeeDetails()  {
         Scanner scanner = new Scanner(System.in);
         int id ;
         String name ;
@@ -16,7 +16,6 @@ public class EmployeeSaleryMain {
 
         System.out.println("Enter Salery:");
         salery = scanner.nextDouble();
-
         Employee employee = new Employee();
         employee.setEmployeeId(id);
         employee.setEmployeeName(name);
@@ -26,11 +25,17 @@ public class EmployeeSaleryMain {
 
 
     }
+
+
+    
     public static int getPFPercentage(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter PF Percentage:");
         return scanner.nextInt();
     }
+
+
+
     public static void main(String[] args) {
         Employee employee = getEmployeeDetails();
         int pfp=getPFPercentage();
@@ -42,7 +47,7 @@ public class EmployeeSaleryMain {
         System.out.println("Net Salery"+employee.getNetSalery());
     }
 
-    Class Employee{
+    class Employee{
         private int id;
         private String name;
         private double salery;
