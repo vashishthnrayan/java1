@@ -14,6 +14,7 @@ class Triangle extends Shape {
     }
     public double getArea() {
         return 0.5 * base * height;
+    }
 }
 
 class Square extends Shape {
@@ -38,4 +39,4 @@ public class main1 {
         System.out.println("Area of Triangle: " + shape[1].getArea());
 
     }
-}}
+}
