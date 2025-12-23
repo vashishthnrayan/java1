@@ -49,7 +49,8 @@ public class shapes {
 
         AreaCalculator calculator = new AreaCalculator();
         double totalArea = calculator.SumArea(shapes);
-        
+
         System.out.println("Total Area: " + totalArea);
+        
     }
 }
