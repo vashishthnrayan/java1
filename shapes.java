@@ -42,7 +42,7 @@ class AreaCalculator {
 
 public class shapes {
     public static void main(String[] args) {
-        Shape[] shapes = new Shape[3];
+        Shape[] shapes = new Shape[2];
         shapes[0] = new Rectangle(4, 5);
         shapes[1] = new Circle(3);
          
@@ -51,6 +51,6 @@ public class shapes {
         double totalArea = calculator.SumArea(shapes);
 
         System.out.println("Total Area: " + totalArea);
-        
+
     }
 }
