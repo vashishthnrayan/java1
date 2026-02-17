@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class BinarySearch{
     int BinarySearch(int arr[], int x) {
         int l = 0, r = arr.length - 1;
