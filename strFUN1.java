@@ -15,7 +15,7 @@ public  class strFUN1 {
         String reverse = new StringBuilder(original).reverse().toString();
         System.out.println("The reversed string is: " + reverse );
 
-        System.out.println("The length of the string is: " + original+"("+reverse+")"   );
+        System.out.println("The length of the string is: " + original.length());
         
 
     }
