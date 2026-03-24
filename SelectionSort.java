@@ -28,7 +28,7 @@ public class SelectionSort {
     }
 
     public static void main(String args[]) {
-        Scanner scn = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);s
         System.out.println("Enter the number of elements in the array:");
         int n = scn.nextInt();
         int arr[] = new int[n];
