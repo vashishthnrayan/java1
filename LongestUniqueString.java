@@ -11,7 +11,6 @@ public class LongestUniqueString {
             char currentChar = str.charAt(i);
             while(seen.contains(currentChar)){
                 seen.remove(str.charAt(start));
-                start++;
             }
             seen.add(currentChar);
             if(i - start + 1 > longest.length()){
