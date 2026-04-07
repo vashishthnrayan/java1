@@ -13,7 +13,7 @@ public class RemoveDuplicates {
                 }
             }
             if (!isDuplicate) {
-                result[index++] = arr[i];
+                result[index] = arr[i];
                 index++;
             }
             
