@@ -41,7 +41,7 @@ public class RemoveDuplicates {
             RemoveDuplicates obj = new RemoveDuplicates();
             int[] result = obj.removeDuplicates(arr);
 
-            System.out.println("Array after removing duplicates:");
+            System.out.println("Array after removing1 duplicates:");
             for (int value : result) {
                 System.out.print(value + " ");
             }
